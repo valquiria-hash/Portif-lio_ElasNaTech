@@ -1,0 +1,105 @@
+	
+* {
+  font-family: 'Ubuntu', sans-serif;	
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  background-color: #c9eef3f1;
+
+    
+
+}
+
+.header > h1 {
+  
+  color: #1C1C1C;
+  padding: 15px;
+}
+
+.header > p {
+  padding: 15px;
+}
+
+.header > img {
+  width:200px;
+  border-radius: 10%;
+  filter: grayscale(1);
+  transition: .3s;
+  cursor: pointer;
+}
+
+img.ico {
+  margin-top: 15px;
+  width:32px;
+  border-radius: 10%;
+  filter: grayscale(1);
+  cursor: pointer;
+}
+
+
+img:hover {
+  background-color: #f00; 
+  cursor: pointer;
+  filter: grayscale(0);
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+  
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+
+.about > h1 {				
+  color: #1C1C1C;
+  padding: 10px;
+  font-size: 1.25em;
+  
+}
+
+.detalhes > h1 {				
+  color: #1C1C1C;
+  padding: 10px;
+  font-size: 1.25em;
+  
+}
+a {
+  font-size: 25px;
+  float: right;
+  margin-right: 1em;
+}
+
+.negrito {
+  font-weight: 700;				
+}
+
+p {
+  font-size: 1.25em;
+  color: #404040;
+  padding: 10px;
+  
+}
+      
+input {
+  font-size: 1.25em;
+  color: #404040;
+  padding: 10px;
+  background-color: #cacaca;
+}
+h2 {
+  font-size: 2em;
+  color: #404040;
+  padding: 10px;
+  font-weight: bolder;
+  
+}
